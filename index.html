@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>formvalidation</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" />
+      <br />
+      <label class="msg" id="nameMsg"></label>
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input type="text" id="email" />
+      <br />
+      <label class="msg" id="emailMsg"></label>
+      <br />
+      <br />
+      <label for="pass">Password</label>
+      <input type="password" name="" id="pass" />
+      <br />
+      <label class="msg" id="passMsg"></label>
+      <br />
+      <br />
+      <label id="genderlabel">Gender</label>
+      <br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">female</label>
+      <br />
+      <label class="msg" id="genderMsg"></label>
+      <br />
+      <br />
+      <label id="sportlabel">Sports</label>
+      <br />
+      <input type="checkbox" name="" id="tennis" />
+      <label for="tennis">Tennis</label>
+      <input type="checkbox" name="" id="running" />
+      <label for="running">running</label>
+      <input type="checkbox" name="" id="football" />
+      <label for="football">football</label>
+      <br />
+      <label class="msg" id="sportsMsg"></label>
+      <br />
+      <br />
+      <label>Country</label>
+      <select id="country">
+        <option value=""></option>
+        <option value="Cairo">Cairo</option>
+        <option value="Giza">Giza</option>
+      </select>
+      <br />
+      <label class="msg" id="countryMsg"></label>
+      <br />
+      <br />
+      <button id="submit">Submit</button>
+      <button id="reset">Reset</button>
+      <!-- <button id="hello">hello</button> -->
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
